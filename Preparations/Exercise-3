@@ -16,5 +16,3 @@ touch foo.js
 echo "let foo = 'bar';" >> foo.js
 echo "console.log(foo);" >> foo.js
 echo "foo;" >> foo.js
-
-s
