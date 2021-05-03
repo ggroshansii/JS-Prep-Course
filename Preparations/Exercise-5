@@ -13,6 +13,6 @@ create: Object.create() - Static method; Object constructor
 
 fromCharCode: String.fromCharCode() - Static method; String constructor
 
-slice: Array.prototype.slice() - Prototype method; Array constructor
+slice: Array.prototype.slice() - Prototype method; Array & String constructors
 
-toString: Object.prototype.toString() - Prototype method; String constructor
+toString: Object.prototype.toString() - Prototype method; Object, String, Array and Number constructors
