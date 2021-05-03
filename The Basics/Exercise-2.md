@@ -14,10 +14,10 @@ let number = 4936;
 let onesPlace = number % 10;
 number = (number - onesPlace) / 10;
 
-let tenthsPlace = number % 10;
-number = (number - tenthsPlace) / 10;
+let tensPlace = number % 10;
+number = (number - tensPlace) / 10;
 
-let hundredthsPlace = number % 10; 
-number = (number - hundredthsPlace) / 10; 
+let hundredsPlace = number % 10; 
+number = (number - hundredsPlace) / 10; 
 
-thousandthsPlace = number;
+thousandsPlace = number;
